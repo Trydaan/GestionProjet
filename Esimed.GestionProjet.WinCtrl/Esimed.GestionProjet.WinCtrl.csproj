@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E6E8362-1577-4CD4-AB34-FCD8B12C1B69}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Esimed.GestionProjet.WinCtrl</RootNamespace>
+    <AssemblyName>Esimed.GestionProjet.WinCtrl</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ctrl\CtrlAjoutExign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlAjoutExign.Designer.cs">
+      <DependentUpon>CtrlAjoutExign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlListeExigence.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlListeExigence.Designer.cs">
+      <DependentUpon>CtrlListeExigence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlListeJalon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlListeJalon.Designer.cs">
+      <DependentUpon>CtrlListeJalon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlListeUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlListeUser.Designer.cs">
+      <DependentUpon>CtrlListeUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlAjoutProjet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlAjoutProjet.Designer.cs">
+      <DependentUpon>CtrlAjoutProjet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ctrl\CtrlListeProjet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlListeProjet.Designer.cs">
+      <DependentUpon>CtrlListeProjet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FrmAjoutExig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FrmAjoutExig.Designer.cs">
+      <DependentUpon>FrmAjoutExig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FrmAjoutProjet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FrmAjoutProjet.Designer.cs">
+      <DependentUpon>FrmAjoutProjet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ctrl\CtrlAjoutExign.resx">
+      <DependentUpon>CtrlAjoutExign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlListeExigence.resx">
+      <DependentUpon>CtrlListeExigence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlListeJalon.resx">
+      <DependentUpon>CtrlListeJalon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlListeUser.resx">
+      <DependentUpon>CtrlListeUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlAjoutProjet.resx">
+      <DependentUpon>CtrlAjoutProjet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlListeProjet.resx">
+      <DependentUpon>CtrlListeProjet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FrmAjoutExig.resx">
+      <DependentUpon>FrmAjoutExig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FrmAjoutProjet.resx">
+      <DependentUpon>FrmAjoutProjet.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Esimed.GestionProjet.Models\Esimed.GestionProjet.Models.csproj">
+      <Project>{f23cf8ae-8f23-4e7a-8145-56942f1d7455}</Project>
+      <Name>Esimed.GestionProjet.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Esimed.GestionProjet.Service\Esimed.GestionProjet.Service.csproj">
+      <Project>{6466090c-cf1a-4813-bb5d-5a7daaca4dc0}</Project>
+      <Name>Esimed.GestionProjet.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

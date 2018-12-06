@@ -1,0 +1,13 @@
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Release\Esimed.GestionProjet.WinCtrl.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Release\Esimed.GestionProjet.WinCtrl.pdb
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Release\Esimed.GestionProjet.Models.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Release\Esimed.GestionProjet.Service.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Release\Esimed.GestionProjet.ServiceDA.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Release\Esimed.GestionProjet.Models.pdb
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Release\Esimed.GestionProjet.Service.pdb
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Release\Esimed.GestionProjet.ServiceDA.pdb
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Release\Esimed.GestionProjet.WinCtrl.csprojResolveAssemblyReference.cache
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Release\Esimed.GestionProjet.WinCtrl.CtrlListeProjet.resources
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Release\Esimed.GestionProjet.WinCtrl.csproj.GenerateResource.Cache
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Release\Esimed.GestionProjet.WinCtrl.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Release\Esimed.GestionProjet.WinCtrl.pdb

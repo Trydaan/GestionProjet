@@ -1,0 +1,14 @@
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\obj\Debug\Esimed.GestionProjet.ServiceDA.csprojResolveAssemblyReference.cache
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\Esimed.GestionProjet.ServiceDA.dll.config
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\Esimed.GestionProjet.ServiceDA.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\Esimed.GestionProjet.ServiceDA.pdb
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\Esimed.GestionProjet.Models.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\Esimed.GestionProjet.Models.pdb
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\obj\Debug\Esimed.GestionProjet.ServiceDA.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\obj\Debug\Esimed.GestionProjet.ServiceDA.pdb
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\db_GestionProjet.mdf
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\db_GestionProjet_log.ldf
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\db_GestionProjetDataSet.Designer.cs
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\db_GestionProjetDataSet.xsc
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\db_GestionProjetDataSet.xsd
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.ServiceDA\bin\Debug\db_GestionProjetDataSet.xss

@@ -1,0 +1,4 @@
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.Models\bin\Release\Esimed.GestionProjet.Models.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.Models\bin\Release\Esimed.GestionProjet.Models.pdb
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.Models\obj\Release\Esimed.GestionProjet.Models.dll
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.Models\obj\Release\Esimed.GestionProjet.Models.pdb
