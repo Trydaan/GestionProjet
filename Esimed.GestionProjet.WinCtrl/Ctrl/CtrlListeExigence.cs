@@ -31,7 +31,9 @@ namespace Esimed.GestionProjet.WinCtrl.Ctrl
             bsExigence.DataSource = v_exigs;
             dgvExigence.DataSource = bsExigence;
 
-            dgvExigence.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.ColumnHeader);
+            //dgvExigence.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.ColumnHeader);
+            dgvExigence.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+
             dgvExigence.Columns["IdProjet"].Visible = false;
             dgvExigence.Columns["Id"].Visible = false;
             dgvExigence.Columns["DisplayInfo"].Visible = false;

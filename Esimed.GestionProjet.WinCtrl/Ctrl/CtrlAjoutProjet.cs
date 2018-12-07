@@ -16,6 +16,7 @@ namespace Esimed.GestionProjet.WinCtrl.Ctrl
     {
         private bool modif;
         private int projetid;
+        private string code;
 
         public CtrlAjoutProjet()
         {
@@ -39,8 +40,10 @@ namespace Esimed.GestionProjet.WinCtrl.Ctrl
             if (p_modif)
             {
                 Projet projetmodif = FEsimedService.CreateProjetService().GetProjetById(p_projet);
+                code = projetmodif.Code;
                 tbNomProjet.Text = projetmodif.Nom;
                 tbCodeProjet.Text = projetmodif.Code;
+
                 ctrlListeUser.SetUserSelected(projetmodif.IdResp);
             }
                      
@@ -90,14 +93,14 @@ namespace Esimed.GestionProjet.WinCtrl.Ctrl
                     break;
                 case EnumActionAjoutProjets.modifierProjet:
                     {
-                        if (FEsimedService.CreateProjetService().CountByCode(tbCodeProjet.Text) == 0)
+                        if (tbCodeProjet.Text != code && FEsimedService.CreateProjetService().CountByCode(tbCodeProjet.Text) > 0)
                         {
-                            lbError.Text = FEsimedService.CreateProjetService().UpdateProjet(projetid, tbNomProjet.Text, tbCodeProjet.Text, ctrlListeUser.GetUserSelected().Id);
-
+                            lbError.Text = "Ce trigramme est déjà utilisé";
                         }
                         else
                         {
-                            lbError.Text = "Ce trigramme est déjà utilisé";
+                            lbError.Text = FEsimedService.CreateProjetService().UpdateProjet(projetid, tbNomProjet.Text, tbCodeProjet.Text, ctrlListeUser.GetUserSelected().Id);
+
                         }
                     }
                     break;

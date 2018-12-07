@@ -47,6 +47,12 @@
     <Compile Include="Ctrl\CtrlAjoutExign.Designer.cs">
       <DependentUpon>CtrlAjoutExign.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ctrl\CtrlAjoutJalon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Ctrl\CtrlAjoutJalon.Designer.cs">
+      <DependentUpon>CtrlAjoutJalon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ctrl\CtrlListeExigence.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -83,6 +89,12 @@
     <Compile Include="Frm\FrmAjoutExig.Designer.cs">
       <DependentUpon>FrmAjoutExig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm\FrmAjoutJalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FrmAjoutJalon.Designer.cs">
+      <DependentUpon>FrmAjoutJalon.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm\FrmAjoutProjet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +106,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Ctrl\CtrlAjoutExign.resx">
       <DependentUpon>CtrlAjoutExign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ctrl\CtrlAjoutJalon.resx">
+      <DependentUpon>CtrlAjoutJalon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ctrl\CtrlListeExigence.resx">
       <DependentUpon>CtrlListeExigence.cs</DependentUpon>
@@ -112,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm\FrmAjoutExig.resx">
       <DependentUpon>FrmAjoutExig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FrmAjoutJalon.resx">
+      <DependentUpon>FrmAjoutJalon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm\FrmAjoutProjet.resx">
       <DependentUpon>FrmAjoutProjet.cs</DependentUpon>

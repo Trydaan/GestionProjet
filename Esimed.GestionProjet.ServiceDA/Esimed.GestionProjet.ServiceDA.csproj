@@ -76,6 +76,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="ServiceDA\TacheServiceDA.cs" />
     <Compile Include="ServiceDA\JalonServiceDA.cs" />
     <Compile Include="ServiceDA\ExigenceServiceDA.cs" />
     <Compile Include="ServiceDA\ProjetServiceDA.cs" />

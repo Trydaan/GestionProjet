@@ -15,3 +15,9 @@ C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionPr
 C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinForm\bin\Debug\Esimed.GestionProjet.WinCtrl.pdb
 C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinForm\bin\Debug\Esimed.GestionProjet.ServiceDA.pdb
 C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinForm\obj\Debug\Esimed.GestionProjet.WinForm.Index.resources
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinForm\bin\Debug\db_GestionProjet.mdf
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinForm\bin\Debug\db_GestionProjet_log.ldf
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinForm\bin\Debug\db_GestionProjetDataSet.Designer.cs
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinForm\bin\Debug\db_GestionProjetDataSet.xsc
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinForm\bin\Debug\db_GestionProjetDataSet.xsd
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinForm\bin\Debug\db_GestionProjetDataSet.xss

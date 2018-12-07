@@ -18,3 +18,11 @@ C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionPr
 C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Debug\Esimed.GestionProjet.WinCtrl.Frm.FrmAjoutExig.resources
 C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Debug\Esimed.GestionProjet.WinCtrl.Ctrl.CtrlAjoutExign.resources
 C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Debug\Esimed.GestionProjet.WinCtrl.Ctrl.CtrlListeJalon.resources
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Debug\Esimed.GestionProjet.WinCtrl.Ctrl.CtrlAjoutJalon.resources
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\obj\Debug\Esimed.GestionProjet.WinCtrl.Frm.FrmAjoutJalon.resources
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Debug\db_GestionProjet.mdf
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Debug\db_GestionProjet_log.ldf
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Debug\db_GestionProjetDataSet.Designer.cs
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Debug\db_GestionProjetDataSet.xsc
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Debug\db_GestionProjetDataSet.xsd
+C:\Users\Baptiste\Documents\Esimed\dot NET\Esimed.GestionProjet\Esimed.GestionProjet.WinCtrl\bin\Debug\db_GestionProjetDataSet.xss

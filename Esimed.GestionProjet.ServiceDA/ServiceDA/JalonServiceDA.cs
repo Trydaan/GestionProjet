@@ -33,20 +33,20 @@ namespace Esimed.GestionProjet.ServiceDA
         //    return (int)new ExigenceTableAdapter().CountExigByCode(p_code, p_projet);          
         //}
 
-        //public string UpdateExig(string p_texte, string p_code, int p_fonction, int p_id)
-        //{
-        //    int result = new ExigenceTableAdapter().UpdateExig(p_texte, p_code, p_fonction, p_id);
-        //    return result > 0 ? "Exigence modifé" : "Erreur : exigence non modifié";
-        //}
+        public string UpdateJalon(DateTime p_livrprevu, string p_libelle, int p_resp, int p_id)
+        {
+            int result = new JalonTableAdapter().UpdateJalon(p_livrprevu, p_libelle, p_resp, p_id);
+            return result > 0 ? "Jalon modifé" : "Erreur : jalon non modifié";
+        }
 
-        //public Exigence GetExById(int p_id)
-        //{
-        //    db_GestionProjetDataSet.ExigenceRow er = new ExigenceTableAdapter().GetExigById(p_id)[0];
+        public Jalon GetJalonById(int p_id)
+        {
+            db_GestionProjetDataSet.JalonRow jr = new JalonTableAdapter().GetById(p_id)[0];
 
-        //    Exigence v_exig = FEsimedServiceDA.CreateRowServiceDA().FromDBToBean<Exigence>(er);
+            Jalon v_jalon = FEsimedServiceDA.CreateRowServiceDA().FromDBToBean<Jalon>(jr);
 
-        //    return v_exig;
-        //}
+            return v_jalon;
+        }
 
         
 

@@ -33,6 +33,8 @@ namespace Esimed.GestionProjet.WinCtrl.Ctrl
 
             dgvJalon.AutoResizeColumns(DataGridViewAutoSizeColumnsMode.ColumnHeader);
             dgvJalon.Columns["Id"].Visible = false;
+            dgvJalon.Columns["IdProjet"].Visible = false;
+            dgvJalon.Columns[2].DefaultCellStyle.Format = "dd/MM/yyyy";
         }
 
         private void DoStuff(EnumActionListeJalon p_enum, object p_sender)

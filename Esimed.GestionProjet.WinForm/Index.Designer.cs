@@ -32,21 +32,17 @@
             this.lbInfoProjet = new System.Windows.Forms.Label();
             this.btNouvProjet = new System.Windows.Forms.Button();
             this.btModifProjet = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.exigencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tachesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btAfficheExig = new System.Windows.Forms.Button();
             this.lbInfoExig = new System.Windows.Forms.Label();
             this.btAjoutExig = new System.Windows.Forms.Button();
             this.btModifExig = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btAjoutJalon = new System.Windows.Forms.Button();
+            this.btModifJalon = new System.Windows.Forms.Button();
             this.ctrlListeJalon1 = new Esimed.GestionProjet.WinCtrl.Ctrl.CtrlListeJalon();
             this.ctrlListeExigence1 = new Esimed.GestionProjet.WinCtrl.Ctrl.CtrlListeExigence();
             this.ctrlListeProjet = new Esimed.GestionProjet.WinCtrl.CtrlListeProjet();
-            this.btAjoutJalon = new System.Windows.Forms.Button();
-            this.btModifJalon = new System.Windows.Forms.Button();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btInfoProjet
@@ -86,29 +82,6 @@
             this.btModifProjet.Text = "Modifier";
             this.btModifProjet.UseVisualStyleBackColor = true;
             this.btModifProjet.Click += new System.EventHandler(this.btModifProjet_Click);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exigencesToolStripMenuItem,
-            this.tachesToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(912, 24);
-            this.menuStrip1.TabIndex = 6;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // exigencesToolStripMenuItem
-            // 
-            this.exigencesToolStripMenuItem.Name = "exigencesToolStripMenuItem";
-            this.exigencesToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
-            this.exigencesToolStripMenuItem.Text = "Exigences";
-            // 
-            // tachesToolStripMenuItem
-            // 
-            this.tachesToolStripMenuItem.Name = "tachesToolStripMenuItem";
-            this.tachesToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
-            this.tachesToolStripMenuItem.Text = "Taches";
             // 
             // btAfficheExig
             // 
@@ -166,6 +139,26 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Jalons du projet";
             // 
+            // btAjoutJalon
+            // 
+            this.btAjoutJalon.Location = new System.Drawing.Point(445, 304);
+            this.btAjoutJalon.Name = "btAjoutJalon";
+            this.btAjoutJalon.Size = new System.Drawing.Size(75, 40);
+            this.btAjoutJalon.TabIndex = 14;
+            this.btAjoutJalon.Text = "Nouveau Jalon";
+            this.btAjoutJalon.UseVisualStyleBackColor = true;
+            this.btAjoutJalon.Click += new System.EventHandler(this.btAjoutJalon_Click);
+            // 
+            // btModifJalon
+            // 
+            this.btModifJalon.Location = new System.Drawing.Point(526, 304);
+            this.btModifJalon.Name = "btModifJalon";
+            this.btModifJalon.Size = new System.Drawing.Size(75, 40);
+            this.btModifJalon.TabIndex = 15;
+            this.btModifJalon.Text = "Modifier";
+            this.btModifJalon.UseVisualStyleBackColor = true;
+            this.btModifJalon.Click += new System.EventHandler(this.btModifJalon_Click);
+            // 
             // ctrlListeJalon1
             // 
             this.ctrlListeJalon1.Location = new System.Drawing.Point(436, 126);
@@ -187,30 +180,11 @@
             this.ctrlListeProjet.Size = new System.Drawing.Size(144, 61);
             this.ctrlListeProjet.TabIndex = 0;
             // 
-            // btAjoutJalon
-            // 
-            this.btAjoutJalon.Location = new System.Drawing.Point(445, 304);
-            this.btAjoutJalon.Name = "btAjoutJalon";
-            this.btAjoutJalon.Size = new System.Drawing.Size(75, 40);
-            this.btAjoutJalon.TabIndex = 14;
-            this.btAjoutJalon.Text = "Nouveau Jalon";
-            this.btAjoutJalon.UseVisualStyleBackColor = true;
-            this.btAjoutJalon.Click += new System.EventHandler(this.btAjoutJalon_Click);
-            // 
-            // btModifJalon
-            // 
-            this.btModifJalon.Location = new System.Drawing.Point(526, 304);
-            this.btModifJalon.Name = "btModifJalon";
-            this.btModifJalon.Size = new System.Drawing.Size(75, 40);
-            this.btModifJalon.TabIndex = 15;
-            this.btModifJalon.Text = "Modifier";
-            this.btModifJalon.UseVisualStyleBackColor = true;
-            // 
             // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 388);
+            this.ClientSize = new System.Drawing.Size(912, 557);
             this.Controls.Add(this.btModifJalon);
             this.Controls.Add(this.btAjoutJalon);
             this.Controls.Add(this.label2);
@@ -226,13 +200,9 @@
             this.Controls.Add(this.lbInfoProjet);
             this.Controls.Add(this.btInfoProjet);
             this.Controls.Add(this.ctrlListeProjet);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Index";
             this.Text = "Gestion de projet";
             this.Load += new System.EventHandler(this.Index_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,9 +216,6 @@
         private System.Windows.Forms.Button btNouvProjet;
         private System.Windows.Forms.Button btModifProjet;
         private WinCtrl.Ctrl.CtrlListeExigence ctrlListeExigence1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem exigencesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tachesToolStripMenuItem;
         private System.Windows.Forms.Button btAfficheExig;
         private System.Windows.Forms.Label lbInfoExig;
         private System.Windows.Forms.Button btAjoutExig;

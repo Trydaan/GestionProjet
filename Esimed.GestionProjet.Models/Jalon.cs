@@ -12,7 +12,7 @@ namespace Esimed.GestionProjet.Models
 
         public string Libelle { get; set; }        
 
-        public DateTime LivraisonPrevue { get; set; }
+        public DateTime LivraisonPrevu { get; set; }
 
         public DateTime? LivraisonReelle { get; set; }
 
@@ -29,7 +29,7 @@ namespace Esimed.GestionProjet.Models
             DateTime? p_livraisonreelle = null)
         {
             this.Libelle = p_libelle;
-            this.LivraisonPrevue = p_livraisonprevue;
+            this.LivraisonPrevu = p_livraisonprevue;
             this.LivraisonReelle = p_livraisonreelle;
             this.IdResp = p_resp;
             this.IdProjet = p_projet;

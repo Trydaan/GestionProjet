@@ -42,7 +42,6 @@ namespace Esimed.GestionProjet.WinForm
                         ctrlListeExigence1.Initialiser(v_projetselected.Id);
 
                         ctrlListeJalon1.Initialiser(v_projetselected.Id);
-
                     }
                     break;
                 case EnumActionAccueil.ajoutProjet:
@@ -98,6 +97,30 @@ namespace Esimed.GestionProjet.WinForm
                         ctrlListeExigence1.Initialiser(ctrlListeProjet.GetProjetSelected().Id);
                     }
                     break;
+                case EnumActionAccueil.ajoutJalon:
+                    {
+                        using (FrmAjoutJalon v_frm = new FrmAjoutJalon())
+                        {
+                            //Passez le projet selectionné pour réutiliser le FrmAjoutProjet
+                            v_frm.Initialiser(ctrlListeProjet.GetProjetSelected().Id);
+
+                            v_frm.ShowDialog();
+                        }
+                        ctrlListeJalon1.Initialiser(ctrlListeProjet.GetProjetSelected().Id);
+                    }
+                    break;
+                case EnumActionAccueil.modifJalon:
+                    {
+                        using (FrmAjoutJalon v_frm = new FrmAjoutJalon())
+                        {
+                            //Passez le projet selectionné pour réutiliser le FrmAjoutProjet
+                            v_frm.Initialiser(ctrlListeProjet.GetProjetSelected().Id, true, ctrlListeJalon1.GetJalonSelected().Id);
+
+                            v_frm.ShowDialog();
+                        }                        
+                        ctrlListeJalon1.Initialiser(ctrlListeProjet.GetProjetSelected().Id);
+                    }
+                    break;
             }
         }
 
@@ -140,7 +163,12 @@ namespace Esimed.GestionProjet.WinForm
 
         private void btAjoutJalon_Click(object sender, EventArgs e)
         {
+            this.DoStuff(EnumActionAccueil.ajoutJalon, sender);
+        }
 
+        private void btModifJalon_Click(object sender, EventArgs e)
+        {
+            this.DoStuff(EnumActionAccueil.modifJalon, sender);
         }
     }
 
